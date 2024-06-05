@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Yummy Pug: A website dedicated to all things sweet!"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/images/Logo.svg"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <meta name="keywords" content="sweet, pug, desserts, candy, chocolate" />
+    <meta name="author" content="Yummy Pug" />
+    <title>YummyPug</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-wrapper">
+        <a href="/" aria-label="Home"
+          ><img
+            src="./assets/images/Logo.svg"
+            alt="Logo of Yummy Pug"
+            width="79"
+            height="79"
+        /></a>
+        <nav>
+          <ul class="nav-list">
+            <li>
+              <a href="#advice">Порада від Ямі</a>
+            </li>
+            <li>
+              <a href="#favourite">Мої улюбленній солодощі</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section aria-label="hero">
+        <div class="container hero">
+          <div class="hero-wrapper">
+            <h1 class="hero-title"><span>YUMMY</span> PUG</h1>
+            <p class="hero-text">
+              Всім привіт, я Ямі і я мопс, який дуже сильно полюбляє солодощі.
+              Сьогодні я розкажу вам, чому саме солодощі і чому вони так важливі
+              в нашому житті. <br />Доречі, моє ім&apos;я з англійської мови
+              перекладається як &quot;Смачний&quot;.
+            </p>
+            <button type="button" class="hero-button">
+              Мої улюбленні солодощі
+            </button>
+          </div>
+          <div class="hero-img"></div>
+        </div>
+      </section>
+      <section id="favourite" class="favourite" aria-label="favourite">
+        <div class="container">
+          <h2 class="favourite-title"><span>мої улюбленні</span> солодощі</h2>
+          <ul class="favourite-list">
+            <li class="favourite-item">
+              <picture>
+                <source type="image/webp" srcset="./assets/images/poppy.webp" />
+                <img
+                  src="./assets/images/poppy.png"
+                  alt="Candy Red Poppy"
+                  class="favourite-img"
+                />
+              </picture>
+              <h3 class="favourite-subtitle">Червоний мак</h3>
+              <p class="favourite-text">
+                Пралене з додаванням карамельної крихти, пасти ядер горіхів
+                фундука та мигдалюпокрите шоколадною глазур&apos;ю
+              </p>
+            </li>
+            <li class="favourite-item">
+              <picture>
+                <source type="image/webp" srcset="./assets/images/lazy.webp" />
+                <img
+                  src="./assets/images/lazy.png"
+                  alt="Candy cream lazy"
+                  class="favourite-img"
+                />
+              </picture>
+              <h3 class="favourite-subtitle">Сливки-ленивки</h3>
+              <p class="favourite-text">
+                Світлі вафельні листи, поєднані молочно-вершковою начинкою та
+                покриті глазур&apos;ю.
+              </p>
+            </li>
+            <li class="favourite-item">
+              <picture>
+                <source
+                  type="image/webp"
+                  srcset="./assets/images/lysine.webp"
+                />
+                <img
+                  src="./assets/images/lysine.png"
+                  alt="Candy Hazlenut lysine"
+                  class="favourite-img"
+                />
+              </picture>
+              <h3 class="favourite-subtitle">Ліщина</h3>
+              <p class="favourite-text">
+                Праліне з додаванням подрібненої та тертої ліщини та мигдалю,
+                покрите шоколадною глазур&apos;ю.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="advice" aria-label="advice">
+        <div class="container advice-wrapper">
+          <div class="advice-text-wrapper">
+            <h2 class="advice-title"><span>Порада &dash; </span>від Yummy</h2>
+            <p>
+              З'ївши чергову шоколадку, ви не просто набираєте трохи додаткових
+              калорій, але покращуєте тим самим роботу мозку, настрій і стаєте
+              трішки добрішим. Вирішивши поласувати шоколадкою, віддавайте
+              перевагу саме чорному шоколаду з високим вмістом какао-бобів. У
+              цьому вигляді шоколаду менше жиру і цукру, ніж в молочному
+              шоколаді, але зате магнію, кальцію, заліза, білка, антиоксидантів
+              і вітамінів предостатньо.
+            </p>
+            <p class="advice-subtitle">Солодощі, які радить їсти Ямі:</p>
+            <ul class="advice-list">
+              <li>
+                <p>Чорний шоколад</p>
+              </li>
+              <li>
+                <p>Зефір</p>
+              </li>
+              <li>
+                <p>Пастила</p>
+              </li>
+              <li>
+                <p>Мармелад</p>
+              </li>
+              <li>
+                <p>Мед</p>
+              </li>
+              <li>
+                <p>Халва</p>
+              </li>
+              <li>
+                <p>Цукати</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="advice-img"></div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container footer-wrapper">
+        <a href="/"
+          ><img
+            src="./assets/images/Logo.svg"
+            alt="Logo of Yummy Pug"
+            width="79"
+            height="79"
+        /></a>
+        <p>Приєднуйся і живи зі мною у світі солодощів!</p>
+      </div>
+    </footer>
+  </body>
+</html>
